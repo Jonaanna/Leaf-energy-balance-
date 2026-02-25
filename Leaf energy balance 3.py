@@ -35,7 +35,7 @@ def calculate_leaf_energy_balance(
 
     es_mbar = lambda t_k: np.exp(52.57633 - (6790.4985 / t_k) - 5.02808 * np.log(t_k)) * 10 # Umrechnung von hPa in mbar formel aus excel sheet übernommen
     
-    e_sat_leaf = es_mbar((tk_leaf_top + tk_leaf_bottom) / 2)
+    e_sat_leaf = es_mbar(tk_air)
     e_air = es_mbar(tk_air) * (rh_percent / 100)
     vpd_mbar = e_sat_leaf - e_air
 
