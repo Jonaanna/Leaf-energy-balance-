@@ -98,7 +98,11 @@ class EnergyBalanceApp:
             display_name = self.input_mapping.get(key, key)
             ttk.Label(input_frame, text=display_name).grid(row=row, column=0, sticky="w", padx=5, pady=2)
             
-            entry = ttk.Entry(input_frame, textvariable=var, width=15)
+            if key in ["t_leaf_c", "g_bl_total"]:
+                entry = tk.Entry(input_frame, textvariable=var, width=15, bg="lightgray")
+            else:
+                entry = ttk.Entry(input_frame, textvariable=var, width=15)
+                
             entry.grid(row=row, column=1, padx=5, pady=2)
             row += 1
 
