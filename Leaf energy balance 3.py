@@ -90,7 +90,7 @@ class EnergyBalanceApp:
             "wind_speed": "Wind speed (m/s)",
             "rh_percent": "Relative humidity (%)",
             "p_mbar": "Air pressure (mbar)",
-            "g_bl_total": "Conductance total (mmol/m²/s)"
+            "g_bl_total": "Stomatal conductance total (mmol/m²/s)"
         }
 
         row = 0
