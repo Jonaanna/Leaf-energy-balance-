@@ -13,6 +13,6 @@ In general, the energy balance of plants is described by various scientific refe
   - Reference model: Refinded basd on the Excel-Sheet framework provided by Dr. Markus Burghardt
 ------
 The model can iteratively solves for the **leaf temperature**, where the sum of all energy fluxes equals zero.
-It can also solve for the critical **stomatal conductance (g<sub>s0 )**, which allows to determine how close a plant is operation to its thermal tipping point (heat avoidance vs. heat tolerance).
+It can also solve for the critical **stomatal conductance **, which allows to determine how close a plant is operation to its thermal tipping point (heat avoidance vs. heat tolerance).
 
 Different leaf energy balance scenarios based on the model are discussed in Chapter X.
