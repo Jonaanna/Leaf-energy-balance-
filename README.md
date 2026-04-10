@@ -5,6 +5,7 @@ _______
 This repository contains a Python-based leaf energy balance simulator developed to quantify biophysical interactions between plant traits and and the environment. With this model the leaf temperature and stomatal conductance can be calculated, and therefore the energy balance equation can be solved under varying climatic conditions.
 ## Biophysical foundations of the leaf energy balance 
 The energy balance of a plant leaf is described as the equilibrium between energy uptake and release. The primary focus lies on the radiation balance, since energy is absorbed, converted, and re-emitted by the plant in the form of radiation. As a result, the net radiation can be calculated, which is the driving force behind additional energy fluxes. The plant employs various physiological and morphological mechanisms to maintain this balance while also being influenced by diverse external factors.
+
 *The leaf energy balance equations are further described in detail in chapter 3 Leaf energy balance in the masterthesis.*
 ## Methodology and Implementation
 In general, the energy balance of plants is described by various scientific references using different formulae with varying degrees of accuracy. Therefore the model derived from established biophysical frameworks: 
